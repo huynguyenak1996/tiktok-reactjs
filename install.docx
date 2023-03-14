@@ -1,0 +1,5 @@
+đẩy github
+    tạo dự án trên github
+    vào trong thư mục dự án chạy lệnh để add lên git hub : git remote add origin https://github.com/huynguyenak1996/tiktok-reactjs.git
+        git branch -M main
+        git push -u origin main
