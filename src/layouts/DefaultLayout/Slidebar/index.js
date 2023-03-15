@@ -1,10 +1,14 @@
 import React from "react";
 
+import styles from "./Slidebar.module.scss";
+import classNames from "classnames/bind";
+
+const cx = classNames.bind(styles);
 const Slidebar = () => {
   return (
-    <div>
+    <aside className={cx("wrapper")}>
       <h2>Slidebar</h2>
-    </div>
+    </aside>
   );
 };
 
