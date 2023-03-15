@@ -1,7 +1,9 @@
 @import 'normalize.css';
 
 :root{
-
+    //Default layout
+    --default-layott-header-height : 60px;
+    --default-layott-width : 1150px;
 }
 *{
     box-sizing: border-box;
