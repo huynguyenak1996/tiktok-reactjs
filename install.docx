@@ -56,3 +56,8 @@ npm install -D sass
 npm install --save normalize.css
 npm install react-router-dom
 npm i classnames
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons

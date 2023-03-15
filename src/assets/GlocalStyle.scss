@@ -4,6 +4,8 @@
     //Default layout
     --default-layott-header-height : 60px;
     --default-layott-width : 1150px;
+    --black:#000;
+    --text-color:#333;
 }
 *{
     box-sizing: border-box;
@@ -14,5 +16,13 @@ html{
     
 }
 body{
-
+    color: var(--text-color);
+}
+button,input,[tabindex]{
+    outline: none;
+    border: none;
+}
+a[href]{
+    color: var(--text-color);
+    text-decoration: none;
 }
